@@ -756,6 +756,13 @@ body .content .header_change .header_lineMiddle {
   opacity: 0;
 }
 
+body .content .header_sticky {
+        background:#2d2a29;
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+
 body .content .header_change .header_lineTop {
   -webkit-transform: rotateZ(-405deg) translate(-8px, 6px);
           transform: rotateZ(-405deg) translate(-8px, 6px);
