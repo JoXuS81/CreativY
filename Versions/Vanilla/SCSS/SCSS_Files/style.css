@@ -2323,6 +2323,19 @@ body .content .team_section p {
   }
 }
 
+body .content .back {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+
 body .content .blog_section {
   background: #000000;
   display: none;
