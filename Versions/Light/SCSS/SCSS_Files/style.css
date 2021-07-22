@@ -748,6 +748,13 @@ body .content header .top .top_right .sear {
   margin: 0 75px 0 0;
 }
 
+body .content header .header_sticky {
+        background:#f6f6fd;
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+
 body .content .header_change .header_lineBottom {
   -webkit-transform: rotateZ(405deg) translate(-8px, -6px);
           transform: rotateZ(405deg) translate(-8px, -6px);
