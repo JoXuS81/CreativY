@@ -5041,6 +5041,10 @@ html {
   body .content {
     padding: 62px;
   }
+  body .content .back a img {
+     height: auto;
+     width: 75px;
+  }
   body .content .blog_section .blogs {
     margin: 123px 0 0 0;
   }
@@ -5471,6 +5475,10 @@ html {
 @media (min-width: 2401px) and (max-width: 3000px) {
   body .content {
     padding: 77px;
+  }
+  body .content .back a img {
+     height: auto;
+     width: 93px;
   }
   body .content .blog_section .blogs {
     margin: 153px 0 0 0;
@@ -5907,6 +5915,10 @@ html {
   body .content {
     padding: 96px;
   }
+  body .content .back a img {
+     height: auto;
+     width: 116px;
+  }
   body .content .blog_section .blogs {
     margin: 191px 0 0 0;
   }
@@ -6322,6 +6334,10 @@ html {
 @media (min-width: 3751px) {
   body .content {
     padding: 120px;
+  }
+  body .content .back a img {
+     height: auto;
+     width: 145px;
   }
   body .content .blog_section .blogs {
     margin: 239px 0 0 0;
