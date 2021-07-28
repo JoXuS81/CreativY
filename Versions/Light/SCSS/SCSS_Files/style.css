@@ -676,6 +676,7 @@ body .content header .top .top_left .home_link a {
 
 body .content header .top .top_left .home_link a h4 {
   color: #000000;
+ text-decoration: none;
 }
 
 body .content header .top .top_left .home_link a h4 span {
