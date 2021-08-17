@@ -317,7 +317,7 @@
 
 
     <!-- BODY -->
-    <body>
+    <body onload = "form_area.reset();">
 
 
         <!-- LOADER -->
@@ -972,13 +972,16 @@
                         <img class = "img-fluid m-0 p-0 large_img" src = "Images/Contact/Contact.png" alt = "Contact">
                     </div>
                     <div class = "block block2 col-xl-6 d-flex justify-content-center justify-content-xl-end m-xl-0 p-0 right">
-                        <form>
-                            <input class = "field" placeholder = "Email" type = "email">
-                            <input class = "field marg" placeholder = "Name" type = "text">
-                            <input class = "field marg" placeholder = "Phone" type = "text">
-                            <textarea class = "message marg texta" placeholder = "Message"></textarea>
-                            <br>
-                            <input class = "button marg" type = "submit" value = "Submit">
+                        <form action = "mail.php" id = "form_area" onsubmit = "return ajaxCall();">
+                            <input class = "field" id = "mail" name = "mailArea" placeholder = "Email" required = "test" type = "email" novalidate>
+                            <input class = "field marg" id = "name" name = "nameArea"placeholder = "Name" type = "text">
+                            <input class = "field marg" id = "phone" name = "phoneArea" placeholder = "Phone" type = "text">
+                            <textarea class = "message marg texta" id = "message" placeholder = "Message"></textarea>
+                            <input class = "button marg" id = "butt" onclick = "sendContact(); return false;" name = "messageArea" type = "submit" value = "Submit">
+                            <div class = "error" id = "error_message">
+                            </div>
+                            <div class = "submitted" id = "submit_message">
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -1075,6 +1078,8 @@
         <script src = 'JS/Bootstrap/bootstrap.bundle.js'>
         </script>
         <script src = 'JS/Bootstrap/bootstrap.bundle.min.js'>
+        </script>
+        <script src = 'JS/contact.js'>
         </script>
         <script src = 'JS/load.js'>
         </script>
